@@ -1,8 +1,14 @@
 *{
     margin: 0;
 }
+a{
+    text-decoration: none;
+    font-weight: normal;
+}
 :root{
     --cor-branca: aliceblue;
+    --cor-roxa: rgb(228, 49, 228);
+    --cor-verde: rgb(8, 206, 8);
     --fonte-05: 0.5em;
     --fonte-08: 0.8em;
 }
@@ -20,6 +26,12 @@ header{
 }
 .cor1{
     color: var(--cor-branca);
+}
+.cor2{
+    color: var(--cor-roxa);
+}
+.cor3{
+    color: var(--cor-verde);
 }
 .flex{
     display: flex;
